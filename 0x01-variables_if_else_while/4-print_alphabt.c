@@ -1,3 +1,4 @@
+#include <stdio.h>
 /**
  * main - main block
  * Desciption: get a random number and check its
