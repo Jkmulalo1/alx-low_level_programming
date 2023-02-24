@@ -19,6 +19,6 @@ void print_line(int n)
 			_putchar('_');
 			count++;
 		}
-		_putchar('\n')
+		_putchar('\n');
 	}
 }
