@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_binary - prints the binary equivalent of a decimal number
+ * print_binary - prints the binary representation of a number
  * @p: number to print in binary
  */
 void print_binary(unsigned long int p)
@@ -14,13 +14,9 @@ void print_binary(unsigned long int p)
 		current = p >> i;
 
 		if (current & 1)
-		{
-			_putchar('1');
-			count++;
-		}
+		return;
+
 		else if (count)
-			_putchar('0');
+			return;
 	}
-	if (!count)
-		_putchar('0');
 }
